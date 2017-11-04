@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donde esta la bola?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<div id='app'>
+
+    <img :src='path_0' width="200" height="300" @click="jugar(0)">
+    <img :src='path_1' width="200" height="300" @click="jugar(1)">
+    <img :src='path_2' width="200" height="300" @click="jugar(2)">
+    <br><br>
+    <button @click="randomizar" class="boton"> Jugar</button>
+</div>
+
+</body>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="script.js"></script>
+</html>
